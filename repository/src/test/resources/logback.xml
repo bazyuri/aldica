@@ -52,7 +52,13 @@
     <logger name="${project.basePackage}.binary.NodeRefBinarySerializerTests" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
+    <logger name="${project.basePackage}.binary.NodeVersionKeyBinarySerializerTests" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
     <logger name="${project.basePackage}.binary.ContentDataBinarySerializerTests" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="${project.basePackage}.binary.ContentUrlEntityBinarySerializerTests" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
     <logger name="${project.basePackage}.binary.ModuleVersionNumberBinarySerializerTests" additivity="false">
@@ -62,6 +68,12 @@
         <appender-ref ref="STDOUT" />
     </logger>
     <logger name="${project.basePackage}.binary.NodePropertiesBinarySerializerTests" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="${project.basePackage}.binary.TicketBinarySerializerTests" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    <logger name="${project.basePackage}.binary.DurationBinarySerializerTests" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
